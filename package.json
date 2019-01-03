@@ -1,7 +1,7 @@
 {
-  "name": "ts-package-template",
+  "name": "fmp-api-wrapper",
   "version": "1.0.0",
-  "description": "",
+  "description": "Financial Modeling Prep API wrapper",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schardtbc/ts-package-template.git"
+    "url": "git+https://github.com/schardtbc/fmp-api-wrapper.git"
   },
   "keywords": [],
   "author": "Bruce C. Schardt",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/schardtbc/ts-package-template/issues"
+    "url": "https://github.com/schardtbc/fmp-api-wrapper/issues"
   },
-  "homepage": "https://github.com/schardtbc/ts-package-template#readme",
+  "homepage": "https://github.com/schardtbc/fmp-api-wrapper#readme",
   "devDependencies": {
     "@types/jest": "23.3.11",
     "jest": "23.6.0",
