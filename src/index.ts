@@ -36,7 +36,7 @@ export class Fmp {
     );
   }
 
-  public static actives() {
+  public static mostActive() {
     return fmpClient(`/stock/actives`).then(data => keysToSymbolProperty(data));
   }
 

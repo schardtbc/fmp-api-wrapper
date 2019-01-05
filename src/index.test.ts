@@ -104,7 +104,7 @@ test("losers() works with async await", async () => {
 });
 
 test("actives() works with async await", async () => {
-  const tmp = await Fmp.actives();
+  const tmp = await Fmp.mostActive();
   expect(tmp).toEqual(
     expect.arrayContaining([
       expect.objectContaining({
