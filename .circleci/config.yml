@@ -22,6 +22,9 @@ jobs: # a collection of steps
       - run: # run tests
           name: test
           command: npm test
+      - run: # create dir
+          name: .nyc_output dir
+          command: mkdir .nyc_output    
       - run: # run coverage report
           name: code-coverage
           command: './node_modules/.bin/nyc report --reporter=text-lcov'
